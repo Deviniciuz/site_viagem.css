@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+header ,
+h3,
+h2
+button,
+footer {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    padding: 8px;
+    background-color: aqua;
+    color: blue;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+header .center {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+section .form {
+    display: flex;
+    align-items: center;
+}
+
+.aviao img {
+    max-width: 1280px;
+    width: 100%;
+    
+}
+
+section img {
+    margin-right: 8px;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+input:focus, textarea:focus {
+    outline: #182c61;
+}
+
+section h3 ,
+h2 {
+    padding: 8px 0;
+    color: blue;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    padding: 16px 0;
+    color: blue;
+}
+
+section p {
+    padding-bottom: 8px 0;
+}
+
+
+footer {
+    padding: 8px;
+    background-color: aqua;
+    color: black
+}
+
+body {
+    background-color: rgb(244, 244, 103);
+}
+
+
+
